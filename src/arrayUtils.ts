@@ -8,7 +8,6 @@ export function groupArrayElements<T>(arr: T[], groupSize: number): T[][] {
   if (!arr.length || groupSize < 0) {
     return [];
   }
-  const x = "";
 
   const chunkSize = Math.ceil(arr.length / groupSize);
   return [
