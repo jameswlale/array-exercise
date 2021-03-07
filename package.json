@@ -1,0 +1,30 @@
+{
+  "name": "array-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/arrayUtils.ts",
+  "dependencies": {
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.20",
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.21.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "test": "jest ./src",
+    "lint": "npx eslint src/**",
+    "lint:fix": "npx eslint src/** --fix",
+    "format": "npx prettier src/** --check",
+    "format:fix": "npx prettier src/** --write"
+  },
+  "author": "",
+  "license": "ISC"
+}
